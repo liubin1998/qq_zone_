@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <!-- <script type="text/javascript" src="../js/jquery-1.12.1.js"></script> -->
+        <title>注册</title>
+		<script src="js/test.js"></script>
+    </head>
+    <body>
+        <form action="trans.html" method="get" onsubmit="return tovalid()">
+			<input id="user" type="text" placeholder="请输入用户名" required/>
+			<span id="user_err"></span>
+			<br />
+			<input id="pass" type="password" placeholder="请输入密码" required/>
+			<span id="pass_err"></span>
+			<br />
+			<input id="pass_two" type="password" placeholder="请再次输入密码" required/>
+			<span id="pass_two_err"></span>
+			<br />
+			<input type="submit" />
+		</form>
+    </body>
+</html>
