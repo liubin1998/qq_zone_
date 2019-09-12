@@ -45,7 +45,7 @@ a{
 	text-decoration: none;
 }
 #tou_logo{
-	background-image: url(img/logo.PNG);
+	background-image: url(img/logo.jpg);
 	width:99px ;
 	height:32px ;
 	display: inline-block;
@@ -65,10 +65,10 @@ a{
 		margin-left: 0;
 	}
 	50%{
-		margin-left: -720px;
+
 	}
 	100%{
-		margin-left: -1440px;
+		margin-left: -720px;
 	}
 
 .slide-warp{

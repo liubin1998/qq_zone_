@@ -11,9 +11,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Pug File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,12 +37,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\qq_zone_\untitled\public\images" />
       <recent name="C:\Users\刘斌\WebstormProjects\untitled\public\javascripts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\qq_zone_\untitled\routes" />
+      <recent name="H:\qq_zone_\untitled\public\stylesheets" />
+      <recent name="H:\qq_zone_\untitled\public\images" />
+      <recent name="H:\qq_zone_\untitled\views" />
       <recent name="C:\Users\刘斌\WebstormProjects\untitled\public\images" />
-      <recent name="C:\Users\刘斌\WebstormProjects\untitled\public\stylesheets" />
-      <recent name="C:\Users\刘斌\WebstormProjects\untitled\public\javascripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,6 +77,8 @@
       <workItem from="1568216708647" duration="448000" />
       <workItem from="1568248902148" duration="2655000" />
       <workItem from="1568252851966" duration="1351000" />
+      <workItem from="1568255384062" duration="5163000" />
+      <workItem from="1568269679996" duration="4027000" />
     </task>
     <servers />
   </component>
@@ -85,7 +90,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

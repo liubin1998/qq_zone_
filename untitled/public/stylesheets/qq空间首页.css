@@ -5,11 +5,11 @@
 	min-width: 500px;
 	z-index: -10;
 	zoom: 1;
-	background: url(../img/大背景.jpg) no-repeat ;
+	background: url(/images/backpic.jpg) no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
-	background-position: center 0; 
-	
+	background-position: center 0;
+
 
 }
 .logo_and_form{
@@ -130,7 +130,7 @@
 .iphone_icon{
 	width: 28px;
 	height: 28px;
-	background-image:url(../img/小图标.png);
+	background-image:url(/images/littlepic.png);
 	background-position-y:-204px;
 	background-position-x: -60px;
 	margin: auto;
@@ -138,7 +138,7 @@
 .ipad_icon{
 	width: 28px;
 	height: 28px;
-	background-image:url(../img/小图标.png);
+	background-image:url(/images/littlepic.png);
 	background-position-y:-233px;
 	background-position-x: -60px;
 	margin: auto;
@@ -146,7 +146,7 @@
 .Android_icon{
 	width: 28px;
 	height: 28px;
-	background-image:url(../img/小图标.png);
+	background-image:url(/images/littlepic.png);
 	background-position-y:-173px;
 	background-position-x: -89px;
 	margin: auto;
@@ -154,7 +154,7 @@
 .windows_icon{
 	width: 28px;
 	height: 28px;
-	background-image:url(../img/小图标.png);
+	background-image:url(/images/littlepic.png);
 	background-position-y:-233px;
 	background-position-x: -90px;
 	margin: auto;
@@ -162,7 +162,7 @@
 .others_icon{
 	width: 28px;
 	height: 28px;
-	background-image:url(../img/小图标.png);
+	background-image:url(/images/littlepic.png);
 	background-position-y:-203px;
 	background-position-x: -90px;
 	margin: auto;

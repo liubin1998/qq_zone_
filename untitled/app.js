@@ -7,6 +7,11 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var registerRouter = require('./routes/register'); //添加路径
+var deleteRouter = require('./routes/delete');
+var ltj1Router = require('./routes/ltj1');
+var tengxunRouter = require('./routes/tengxun');
+var y_diamondRouter = require('./routes/y_diamond');
+var GFQQzoneRouter = require('./routes/GFQQzone');
 
 var app = express();
 
@@ -23,6 +28,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/register',registerRouter);
+app.use('/delete',deleteRouter);
+app.use('/ltj1',ltj1Router);
+app.use('/tengxun',tengxunRouter);
+app.use('/y_diamond',y_diamondRouter);
+app.use('/GFQQzone',GFQQzoneRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

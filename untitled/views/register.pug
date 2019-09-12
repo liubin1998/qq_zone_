@@ -4,7 +4,7 @@
 //    // <script type="text/javascript" src="../js/jquery-1.12.1.js"></script>
 //    title 注册
 //    script(src='javascripts/test.js')
-//form(action='/trans', method='get', onsubmit='return tovalid()')
+//form(action='/delete', method='get', onsubmit='return tovalid()')
 //    input#user(type='text', placeholder='请输入用户名', required='')
 //    span#user_err
 //    br
@@ -17,46 +17,128 @@
 //    input(type='submit')
 
 
+//doctype html
+//head
+//    meta(charset='utf-8')
+//    title &#x817E;&#x8BAF;
+//    // ABCmouse腾讯版-少儿英语学习|儿童英语在线|在线英语学习
+//    link(rel='icon', href='img/favicon.png', type='png')
+//    // 给网页添加icon图标
+//    link(href='stylesheets/Qzone.css', type='text/css', rel='stylesheet')
+//.wrapper
+//    // wrapper:包装器
+//    .mode-header
+//        // 标题栏
+//        .mode-header_logo
+//            // 标题栏logo
+//            img.logo-mobile-img(src='images/logo-mobile.png')
+//        .mode-header_link
+//            // 标题栏链接
+//            a.mode-header_link-a(href='ltj1') &#x4E0B;&#x8F7D;APP
+//            a.mode-header_link-a(href='#') &#x5F00;&#x59CB;&#x5B66;&#x4E60;
+//            a.mode-header_link-a(href='#') &#x7ACB;&#x5373;&#x8D2D;&#x4E70;
+//    .mode-banner
+//        // 横幅
+//        img.background-img(src='images/bg-image.png')
+//    .customer-service
+//        // 人工客服 固定定位
+//        // <img src="img/service_pc.png" class="customer-service-img" />
+//    .modules
+//        // 装所有模块的容器
+//        .section-study-idea
+//            // 第一个模块：4M智慧学习理念
+//            .one-one
+//                // one-one 1.1为第一个模块中的第一个小模块
+//                span.study-idea-span 4M&#x667A;&#x6167;&#x5B66;&#x4E60;&#x7406;&#x5FF5;
+//            .one-two
+//                span.mark1 &ldquo;
+//                span.text &#x6253;&#x9020;&#x6C89;&#x6D78;&#x5F0F;&#x82F1;&#x8BED;&#x542F;&#x8499;&#x73AF;&#x5883;
+//                span.mark2 &rdquo;
+//            .one-three
+//                // 放四个小圆圈
+//                img.four-circle(src='images/4m_pc.png')
+//            .one-four
+//                .one-four-showimage
+//                    img.one-four-img(src='images/pc_4m-picture.png')
+
 doctype html
 head
     meta(charset='utf-8')
-    title &#x817E;&#x8BAF;
-    // ABCmouse腾讯版-少儿英语学习|儿童英语在线|在线英语学习
-    link(rel='icon', href='img/favicon.png', type='png')
-    // 给网页添加icon图标
-    link(href='stylesheets/Qzone.css', type='text/css', rel='stylesheet')
-.wrapper
-    // wrapper:包装器
-    .mode-header
-        // 标题栏
-        .mode-header_logo
-            // 标题栏logo
-            img.logo-mobile-img(src='images/logo-mobile.png')
-        .mode-header_link
-            // 标题栏链接
-            a.mode-header_link-a(href='#') &#x4E0B;&#x8F7D;APP
-            a.mode-header_link-a(href='#') &#x5F00;&#x59CB;&#x5B66;&#x4E60;
-            a.mode-header_link-a(href='#') &#x7ACB;&#x5373;&#x8D2D;&#x4E70;
-    .mode-banner
-        // 横幅
-        img.background-img(src='images/bg-image.png')
-    .customer-service
-        // 人工客服 固定定位
-        // <img src="img/service_pc.png" class="customer-service-img" />
-    .modules
-        // 装所有模块的容器
-        .section-study-idea
-            // 第一个模块：4M智慧学习理念
-            .one-one
-                // one-one 1.1为第一个模块中的第一个小模块
-                span.study-idea-span 4M&#x667A;&#x6167;&#x5B66;&#x4E60;&#x7406;&#x5FF5;
-            .one-two
-                span.mark1 &ldquo;
-                span.text &#x6253;&#x9020;&#x6C89;&#x6D78;&#x5F0F;&#x82F1;&#x8BED;&#x542F;&#x8499;&#x73AF;&#x5883;
-                span.mark2 &rdquo;
-            .one-three
-                // 放四个小圆圈
-                img.four-circle(src='images/4m_pc.png')
-            .one-four
-                .one-four-showimage
-                    img.one-four-img(src='images/pc_4m-picture.png')
+    title QQ&#x7A7A;&#x95F4;-&#x5206;&#x4EAB;&#x751F;&#x6D3B;&#xFF0C;&#x7559;&#x4F4F;&#x611F;&#x52A8;
+    link(href='stylesheets/qq空间首页.css', type='text/css', rel='stylesheet')
+.backgound_class
+.logo_and_form
+    .logo_div
+        img(src='images/qzone-logo白.png')
+    .login_class
+        .title
+            span.title_1 &#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x767B;&#x5F55;
+            br
+            span.title_2
+                | &#x63A8;&#x8350;&#x4F7F;&#x7528;
+                a.safe_login(href='#') &#x5FEB;&#x901F;&#x5B89;&#x5168;&#x767B;&#x5F55;
+                | &#xFF0C;&#x9632;&#x6B62;&#x76D7;&#x53F7;&#x3002;
+        .form_box
+            form(action='#', method='get')
+                input.form_id(type='text', placeholder='支持QQ号/邮箱/手机号登陆', required='', name='id')
+                br
+                input.form_pass(type='password', placeholder='密码', name='pass')
+                br
+                input.submit(type='submit', value='登录')
+                br
+                .form_text
+                    a(href='#') &#x5FD8;&#x4E86;&#x5BC6;&#x7801;&#xFF1F;
+                    | |
+                    a(href='#') &#x6CE8;&#x518C;&#x65B0;&#x8D26;&#x53F7;
+                    | |
+                    a(href='#') &#x610F;&#x89C1;&#x53CD;&#x9988;
+.bottom_menu
+    .under_logo
+        ul.ul_logo
+            li
+                a(href='ltj1')
+                    .iphone_icon
+                    span iphone
+            li
+                a(href='ltj1')
+                    .ipad_icon
+                    span ipad
+            li
+                a(href='ltj1')
+                    .Android_icon
+                    span Android
+            li
+                a(href='ltj1')
+                    .windows_icon
+                    span windows Phone
+            li
+                a(href='ltj1')
+                    .others_icon
+                    span &#x5176;&#x4ED6;&#x624B;&#x673A;
+    .under_text
+        a(href='#') &#x53CD;&#x9988;&#x5EFA;&#x8BAE;
+        | |
+        a(href='GFQQzone') &#x5B98;&#x65B9;&#x7A7A;&#x95F4;
+        | |
+        a(href='y_diamond') &#x7A7A;&#x95F4;&#x6D3B;&#x52A8;
+        | |
+        a(href='#') &#x7A7A;&#x95F4;&#x5E94;&#x7528;
+        | |
+        a(href='delete') ABCmouse&#x817E;&#x8BAF;&#x7248;
+        | |
+        a(href='#') &#x817E;&#x8BAF;&#x539F;&#x521B;&#x9986;
+        | |
+        a(href='#') QQ&#x4E92;&#x8054;
+        | |
+        a(href='#') QQ&#x767B;&#x5F55;
+        | |
+        a(href='#') &#x793E;&#x4EA4;&#x7EC4;&#x4EF6;
+        | |
+        a(href='tengxun') &#x5E94;&#x7528;&#x4FB5;&#x6743;&#x6295;&#x8BC9;
+        | |
+        a(href='#') Compiaint Guidelines
+    .under_text1
+        | Copyright &copy; 2005 - 2019 Tencent.
+        a(href='#') All Rights Reserved.
+    .under_text2 &#x817E;&#x8BAF;&#x516C;&#x53F8; &#x7248;&#x6743;&#x6240;&#x6709; &#x7CA4;&#x6587;&#x5316;[2017]6138-1456&#x53F7;
+
