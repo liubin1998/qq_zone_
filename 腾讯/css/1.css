@@ -1,0 +1,330 @@
+
+div img{
+	vertical-align: middle;
+	
+	
+}
+.ul_1{
+	list-style-type:none;
+	margin-left: 10px;		
+	padding-top:25px;
+	padding-bottom: 2px;
+	display:inline;
+}
+.ul_1 li{
+		display:inline;
+		margin-right: 20px;
+		text-align: center;
+}
+.ul_1 a{
+	text-decoration:none;
+	color: black;
+}
+.ul_1 a:hover{
+	text-decoration: none;
+	color: lawngreen;
+}
+.button_class{
+	color: green;}
+.ju{
+	display: inline ;
+	font-size:12px;
+	
+	
+}
+.ju a{
+	text-decoration: none;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-left: 3px;
+	color: dimgray;
+}
+.ju a:hover{
+	color:black;
+}
+.dingbu{
+	position:fixed;
+	display: block;
+	width: 100%;
+	padding-bottom: 20px;
+	height:20px;
+	left: 0px;
+	top: 0px;
+	background-color: whitesmoke;
+	text-align: center;
+	margin: auto;
+}
+.black_menu{
+	background-color: dimgray;
+	position: absolute;
+	width: 100%;
+	height:50px;
+	display: block;
+	top: 40px;
+	left: 0px;
+	margin: auto;
+	}
+.black_menu_ul{
+	list-style-type:none;
+	text-align: center;
+	margin-left: 22px;
+	margin-top: 0px;
+	
+}
+.black_menu_ul li{
+	
+	display: inline-block;
+	margin-left: 80px;
+	background-color: dimgray;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	top: 0px;
+}
+.black_menu_ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu_ul_4_1{
+	list-style-type:none;
+	/* background-color: greenyellow; */
+	position: absolute;
+	width: 150px;
+	height:200px;
+	top: 50px;
+	left: 878px;
+	display: block;
+	display: none;
+	
+}
+.menu_ul_4_1 ul{
+	padding-left: -90px;
+	
+}
+.menu_ul_4_1 ul li{
+	list-style-type:none;
+	text-align: center;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+border: gray solid 1px;
+	
+}
+.menu_ul_4_1 ul li a{
+	text-decoration: none;
+	line-height: 25px;
+	color: #000000;
+}	
+.black_menu_ul_4:hover {
+	background-color: white;
+}
+.black_menu_ul_4:hover .menu_ul_a_4{
+	color: black;
+}
+
+.black_menu_ul_4:hover .menu_ul_4_1{
+	display:block;
+}
+.menu_ul_5_1{
+	list-style-type:none;
+	background-color:white;
+	position: absolute;
+	width: 150px;
+	height:200px;
+	top: 50px;
+	left: 1113px;
+	display: block;
+	display: none;
+}
+.black_menu_ul_5:hover {
+	background-color: white;
+}
+.black_menu_ul_5:hover .menu_ul_a_5{
+	color: black;
+}
+
+.black_menu_ul_5:hover .menu_ul_5_1{
+	display:block;
+}
+.menu_ul_5_1 ul li{
+	list-style-type:none;
+	text-align: center;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+border: gray solid 1px;
+	
+}
+.menu_ul_5_1 ul li a{
+	text-decoration: none;
+	line-height: 25px;
+	color: #000000;
+}	
+.san_menu_1{
+	display: block;
+	width: 325px;
+	height: 23px;
+	/* background-color: greenyellow; */
+	top: 120px;
+	left: 220px;
+	position: absolute;
+	font-size: 15px;
+}
+.san_menu_1 a{
+	color: green;
+	text-decoration: none;
+}
+.san_menu_1 a:hover {
+	text-decoration: underline;
+}
+.left_col {
+	display: block;
+	top:150px;
+	position: relative;
+	width: 250px;
+	background-color: gainsboro;
+	height: 500px;
+	left: 210px;
+
+	
+}
+.left_col a{
+	text-decoration: none;
+}
+.menu_level3{
+	list-style-type:none;
+	padding-left: 0px;
+}
+.menu_level3>li{
+		border: gray 1px solid;
+		line-height: 50px;
+		padding-left:24px ;
+		background-color: lightgray;
+		
+}
+.menu_level4{
+	color:black;
+	list-style-type:none;
+	margin-left: -21px;
+	display: none;
+}
+.menu_level4 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+.jiantou{
+		width: 10px;
+	    height: 10px;
+	    display: inline-block;
+	    box-shadow: 2px 2px 1px white;
+	    transform: rotate(-45deg);
+	    float: right;
+	    margin-right: 36px;
+	    margin-top: 20px;
+}
+.menu_3_1:hover .menu_level4{
+	display: block;
+}
+.menu_level5{
+	color:black;
+	list-style-type:none;
+	margin-left: -21px;
+	display: none;
+}
+.menu_level5 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+.menu_3_2:hover .menu_level5{
+	display: block;
+}
+.menu_level6{
+	color:black;
+	list-style-type:none;
+	margin-left: -21px;
+	display: none;
+}
+.menu_level6 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+.menu_3_3:hover .menu_level6{
+	display: block;
+}
+.menu_level7{
+	color:black;
+	list-style-type:none;
+	margin-left: -21px;
+	display: none;
+}
+.menu_level7 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+.menu_3_4:hover .menu_level7{
+	display: block;
+}
+.menu_level8{
+	color:black;
+	list-style-type:none;
+	margin-left: -21px;
+	display: none;
+}
+.menu_level8 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+.menu_3_5:hover .menu_level8{
+	display: block;
+}
+.menu_level9{
+	color:black;
+	list-style-type:none;
+	margin-left: -21px;
+	display: none;
+}
+.menu_level9 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+.menu_3_6:hover .menu_level9{
+	display: block;
+}
+.menu_level10{
+	color:black;
+	list-style-type:none;
+	margin-left: -21px;
+	display: none;
+}
+.menu_level10 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+.menu_3_7:hover .menu_level10{
+	display: block;
+}
+.right_col{
+	display:block;
+	top:-340px;
+	position: relative;
+	width: 2000px;
+	height: 0px;
+	left: 500px;
+	background-color:brown;
+}
+.menu_3_8{
+	font-size: 25px;
+	list-style-type:none;
+	
+}
+.menu_level11{
+	list-style-type:none;
+	font-size: 15px;
+     padding-left: 0px;
+	 line-height: 30px;
+}
+.menu_level11 a:hover{
+	color: green;
+	text-decoration: underline;
+}
+.menu_level11 li a{
+	 text-decoration: none;
+	}
