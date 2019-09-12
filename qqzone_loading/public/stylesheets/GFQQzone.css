@@ -1,0 +1,240 @@
+#QZ_Body{
+
+}
+.div_big{
+    /* 	border: 1px solid red; */
+    height: 32px;;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: #60647b;
+}
+
+.img_daoh{
+    width: 90px;
+    height: 32px;;
+    vertical-align: middle;
+    line-height: 123px;
+    overflow: hidden;
+
+}
+.div_daoh{
+    /* border: 1px solid red; */
+    width: 1920px;
+    display: inline;
+    padding-bottom: 12px;
+    margin: 20px;
+
+
+}
+.div_daoh1{
+    line-height: 32px;
+    display: inline;
+    padding-bottom: 12px;
+    /* border: 1px solid blue; */
+    vertical-align: text-top;
+}
+.a_zhuye{
+    background-image: url(/images/25.32-yoo190131143813.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-position-x: 34px;
+    background-position-y: -108px;
+}
+.a_zhuye1{
+    background-image: url(/images/25.32-yoo190131143813.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-position-x: 34px;
+    background-position-y: -90px;
+}
+.span_daoh{
+    margin-right: 20px;
+    font-size: 16px;
+}
+.div_music{
+    display: inline;
+    margin-left: 300px;
+    vertical-align: bottom;
+
+}
+.a_music1{/* border: 1px solid red; */
+    background-image: url(/images/25.32-yoo190131143813.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-position-x: 34px;
+    background-position-y: -197px;
+}
+.a_music2{
+    background-image: url(/images/25.32-yoo190131143813.png);
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-position-x: -272px;
+    background-position-y: -218px;
+}
+form{
+    /* left: 1309px;
+    top: 23px;
+    position: absolute; */
+    display: contents;
+}
+.div_big_tow_back{
+    background-image: url(/images/108404_top.jpg);
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+.div_tow{
+    position: absolute;
+    left: 25%;
+    top: 178px;
+}
+.div_tow_text{
+    width: 1920px;
+    display: inline;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 16px;
+    left: 123px;
+}
+.h2_tow_text{
+    display: inline-block;
+}
+.img_gzkj{
+    vertical-align: -9px;
+}
+.a_tow_fensi{
+    text-decoration: none;
+    color: yellow;
+    padding-left: 103px;
+}
+.div_three{
+    background-color: rgba(0, 71, 125, 0.6);
+    position: absolute;
+    width: 100%;;
+    height: 50px;
+    top: 267px;
+}
+.span_three{
+
+
+}
+.ul_three{
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 35%;
+    font-size: 20px;
+}
+.ul_three>li{
+    list-style: none;
+    display: inherit;
+    padding-right:16px
+
+
+}
+.div_four{
+    width: 100%;
+    height: 686px;
+    background-color: #00163f;
+    position: relative;
+    margin-top: 40px;
+    padding-top:25px
+}
+.div_Fsmall{
+    width: 55%;
+    height: 510px;
+    background-color:#2196F3;
+
+    margin: auto;
+}
+.img_shuoshuo{
+
+}
+.QQmusic{
+    margin-top: 0;
+    font-size: 25px;
+}
+.div_bgm{
+    width:55% ;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    /* top:55px;
+    left: 673px;
+    padding-left: 25px; */
+
+}
+.a_bgm{
+    background-image: url(/images/nav_black_new.png);
+    background-position: -250px -58px;
+    width: 125px;
+    height: 58px;
+    display: inline-block;
+
+}
+.a_bgm_sousuo{
+
+    /* border: 1px solid red ; */
+    background-image: url(/images/nav_black_new.png);
+    width: 209px;
+    height: 28px;
+    display: inline-block;
+    background-position-y: 36px;
+    position: absolute;
+    right: 0px;
+    top: 16px;
+
+
+}
+.div_xiangpian{
+    display: inline-block;
+
+}
+
+.div_tx1{
+    float: right;
+}
+.c_tx3{
+    float: right;
+}
+.bt_tx4{
+    float: right;
+    text-decoration: none;
+    background-color:#255c7b;
+    color: white;
+}
+.img_xiangpian{
+    margin: 65px;
+    width: 82%;
+    height: 273px;
+    margin-left: 96px;
+
+}
+.p_xiaobianlan{
+    margin: auto;
+    text-align: center;
+    margin-top: inherit;
+    color: white;
+    font-size: 2px;
+}
+.a_xiaobianlan{
+    text-decoration: none;
+    color: white;
+}
+.p_2{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 2px;
+    text-decoration: none;
+    color: white;
+}
