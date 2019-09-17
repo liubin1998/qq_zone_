@@ -17,7 +17,11 @@ var GFQQzoneRouter = require('./routes/GFQQzone');
 var Tencent_classRouter = require('./routes/Tencent_class');
 var centerRouter = require('./routes/center');
 var downloadRouter = require('./routes/download');
+<<<<<<< HEAD
 var qqshezhiRouter = require('./routes/qqshezhi');
+=======
+var qqgameRouter = require('./routes/qqgame');
+>>>>>>> 夏彬第二次上传
 
 var app = express();
 
@@ -44,8 +48,12 @@ app.use('/GFQQzone',GFQQzoneRouter);
 app.use('/Tencent_class',Tencent_classRouter);
 app.use('/center',centerRouter);
 app.use('/download',downloadRouter);
+<<<<<<< HEAD
 app.use('/qqshezhi',qqshezhiRouter);
 
+=======
+app.use('/qqgame',qqgameRouter);
+>>>>>>> 夏彬第二次上传
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
