@@ -17,6 +17,7 @@ var GFQQzoneRouter = require('./routes/GFQQzone');
 var Tencent_classRouter = require('./routes/Tencent_class');
 var centerRouter = require('./routes/center');
 var downloadRouter = require('./routes/download');
+var qqshezhiRouter = require('./routes/qqshezhi');
 
 var app = express();
 
@@ -43,6 +44,8 @@ app.use('/GFQQzone',GFQQzoneRouter);
 app.use('/Tencent_class',Tencent_classRouter);
 app.use('/center',centerRouter);
 app.use('/download',downloadRouter);
+app.use('/qqshezhi',qqshezhiRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
