@@ -16,6 +16,7 @@ var y_diamondRouter = require('./routes/y_diamond');
 var GFQQzoneRouter = require('./routes/GFQQzone');
 var Tencent_classRouter = require('./routes/Tencent_class');
 var centerRouter = require('./routes/center');
+var downloadRouter = require('./routes/download');
 
 var app = express();
 
@@ -41,6 +42,7 @@ app.use('/y_diamond',y_diamondRouter);
 app.use('/GFQQzone',GFQQzoneRouter);
 app.use('/Tencent_class',Tencent_classRouter);
 app.use('/center',centerRouter);
+app.use('/download',downloadRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
