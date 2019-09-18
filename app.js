@@ -8,12 +8,24 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var registerRouter = require('./routes/register'); //添加路径
 var deleteRouter = require('./routes/delete');
-var ltj1Router = require('./routes/ltj1');
+var ltjRouter = require('./routes/ltj');
+var ltj2Router = require('./routes/ltj2');
+var ltj3Router = require('./routes/ltj3');
 var tengxunRouter = require('./routes/tengxun');
 var y_diamondRouter = require('./routes/y_diamond');
 var GFQQzoneRouter = require('./routes/GFQQzone');
 var Tencent_classRouter = require('./routes/Tencent_class');
+<<<<<<< HEAD
 var QQphoneRouter = require('./routes/QQphone');
+=======
+var centerRouter = require('./routes/center');
+var downloadRouter = require('./routes/download');
+<<<<<<< HEAD
+var qqshezhiRouter = require('./routes/qqshezhi');
+=======
+var qqgameRouter = require('./routes/qqgame');
+>>>>>>> 夏彬第二次上传
+>>>>>>> 672d7d6674d0c6368021432b83de30fb11dfd11c
 
 var app = express();
 
@@ -31,12 +43,25 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/register',registerRouter);
 app.use('/delete',deleteRouter);
-app.use('/ltj1',ltj1Router);
+app.use('/ltj',ltjRouter);
+app.use('/ltj2',ltj2Router);
+app.use('/ltj3',ltj3Router);
 app.use('/tengxun',tengxunRouter);
 app.use('/y_diamond',y_diamondRouter);
 app.use('/GFQQzone',GFQQzoneRouter);
 app.use('/Tencent_class',Tencent_classRouter);
+<<<<<<< HEAD
 app.use('/QQphone',QQphoneRouter);
+=======
+app.use('/center',centerRouter);
+app.use('/download',downloadRouter);
+<<<<<<< HEAD
+app.use('/qqshezhi',qqshezhiRouter);
+
+=======
+app.use('/qqgame',qqgameRouter);
+>>>>>>> 夏彬第二次上传
+>>>>>>> 672d7d6674d0c6368021432b83de30fb11dfd11c
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

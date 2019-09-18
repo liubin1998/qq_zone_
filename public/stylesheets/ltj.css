@@ -20,8 +20,11 @@ div{
     height: 50px;
     vertical-align: middle;
 }
-.toubu_div li:hover{
-    color: skyblue;
+.toubu_ul a{
+    color: darkslateblue;
+}
+.toubu_div a:hover{
+    color: lightblue;
 }
 .zhongbu_big_div{
     background-color: rgb(255, 202, 6);
@@ -30,39 +33,93 @@ div{
     margin-top: 45px;
     position: absolute;
 }
-
 .zhongbu_lb_div{
-    width: 4000px;
-    animation: lb 5s infinite;
-    position: relative;
+    position: absolute;
+    left: 265px;
+    top: 75px;
 }
-.zhongbu_lb_div > img{
-    display: inline-block;
-    margin-left: 0px;
+.zhongbu_lb_one img{
+    position: absolute;
     width: 1300px;
-    height: 500px;
+    height: 490px;
 }
-.zhongbu_lb_show_width{
+.zhongbu_lb_two img{
+    position: absolute;
     width: 1300px;
-    overflow: hidden;
-    margin: 0 auto;
-    margin-top: 25px;
+    height: 490px;
 }
-@keyframes lb{
-0&{
-    margin-left: 0;
+.zhongbu_lb_three img{
+    position: absolute;
+    width: 1300px;
+    height: 490px;
 }
-50%{
-    margin-left: -1294px;
+.zhongbu_lb_three {
+    animation-name: cantoons;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
-100%{
-    margin-left: -2598px;
+.zhongbu_lb_two {
+    animation-name: cantoons2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
+.zhongbu_lb_one {
+    animation-name: cantoons1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
+@keyframes cantoons{
+    0% {
+        opacity: 1;
+    }
+    35% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+@keyframes cantoons2{
+    0% {
+        opacity: 0;
+    }
+    35% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+
+    }
+}
+@keyframes cantoons1{
+    0% {
+        opacity: 0;
+    }
+    35% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+
+    }
+}
+
+
 .weibu_div{
     width: 1920px;
     height: 200px;
-    position: absolute;
+    position: relative;
+    margin-top: 550px;
 }
 .weibu_ul1{
     display: inline-block;
@@ -83,7 +140,7 @@ div{
     border-right: 1px solid #ececec;
 }
 .weibu_erweima{
-    background-image: url('images/erweima.png');
+    background-image: url(img/erweima.png);
     margin: auto;
 
 }
@@ -107,7 +164,7 @@ a{
     text-decoration: none;
     color: #9c9c9c;
     display: block;
-    top:750px;
+    top:800px;
 }
 .dibu_shangmian{
     font-size: 14px;
