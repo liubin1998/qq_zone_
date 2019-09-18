@@ -13,6 +13,7 @@ var tengxunRouter = require('./routes/tengxun');
 var y_diamondRouter = require('./routes/y_diamond');
 var GFQQzoneRouter = require('./routes/GFQQzone');
 var Tencent_classRouter = require('./routes/Tencent_class');
+var QQphoneRouter = require('./routes/QQphone');
 
 var app = express();
 
@@ -35,6 +36,7 @@ app.use('/tengxun',tengxunRouter);
 app.use('/y_diamond',y_diamondRouter);
 app.use('/GFQQzone',GFQQzoneRouter);
 app.use('/Tencent_class',Tencent_classRouter);
+app.use('/QQphone',QQphoneRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
