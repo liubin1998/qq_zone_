@@ -1,0 +1,820 @@
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+em {
+    font-style: normal;
+}
+
+
+.w980 {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.topbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    height: 80px;
+    z-index: 900;
+}
+
+.toppic {
+    max-width: 1175px;
+    min-width: 890px;
+
+    width: 50%;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.toppic a:link,
+.toppic a:visited {
+    color: black;
+}
+
+.topicfixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.topicfixed a:link,
+.topicfixed a:visited {
+    color: #333;
+}
+
+.topside {
+    float: left;
+    width: 59%;
+}
+
+.logoLink {
+    float: left;
+    display: block;
+    width: 196px;
+    height: 0px;
+    overflow: hidden;
+    padding-top: 76px;
+    font-size: 0;
+    background: transparent url(/images/mblogo_black.png) no-repeat left 15px;
+    margin-top: -15px;
+}
+
+
+.topTool li {
+    float: right;
+    margin-left: 30px;
+    position: relative;
+    line-height: 40px;
+}
+
+
+.topTool .login {
+    height: 43px;
+    line-height: 43px;
+}
+
+.topTool .login span {
+    padding: 0 18px;
+    color: #cecece;
+}
+
+.topTool a:hover {
+    color: #12b7f5;
+}
+
+.flashData {
+    clear: both;
+    width: 100%;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.025em;
+}
+
+.flashData a:hover {
+    text-decoration: underline;
+}
+
+#loginInfo img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: -4px;
+    vertical-align: middle;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.loginPenel {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 120px;
+    height: 85px;
+    z-index: 100;
+}
+
+
+
+.logindrop {
+    width: 120px;
+    height: 75px;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
+
+.nick {
+    width: 100px;
+    height: 39px;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    line-height: 39px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.lgout {
+    width: 100%;
+    border-top: 1px solid #d7d7d7;
+    line-height: 35px;
+    text-align: center;
+}
+
+.lgout a:link,
+.lgout a:visited {
+    color: #333;
+}
+
+.morePenel {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    width: 100px;
+    z-index: 100;
+}
+
+
+.moredrop {
+    width: 100px;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
+
+.moredrop a {
+    display: block;
+    padding-left: 10px;
+    height: 39px;
+    border-bottom: 1px solid #cfcfcf;
+    line-height: 39px;
+}
+
+.moredrop a:link,
+.moredrop a:visited {
+    color: #333;
+}
+
+.moredrop a:hover {
+    color: #12b7f5;
+}
+
+
+.downfloor {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 700px;
+    height: 420px;
+    margin: -210px 0 0 -350px;
+    z-index: 9999;
+}
+
+.msgbox {
+    width: 700px;
+    height: 420px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 3px;
+}
+
+
+.msgbody {
+    clear: both;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.msgdesc {
+    height: 38px;
+    color: #111;
+    font-size: 16px;
+}
+
+.msgcode {
+    float: left;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border: 1px solid #e8e8e8;
+}
+
+.msgcode img {
+    width: 100%;
+    height: 100%;
+}
+
+.msgbtns {
+    float: right;
+    width: 238px;
+}
+
+
+.msgbtns a.iph {
+    margin-bottom: 23px;
+    background-position: 0 0;
+}
+
+.msgbtns a.iph:hover {
+    background-position: 0 -55px;
+}
+
+.msgbtns a.and {
+    background-position: 0 -110px;
+}
+
+.msgbtns a.and:hover {
+    background-position: 0 -165px;
+}
+
+.msgmore {
+    clear: both;
+    padding: 25px 10px 0 0;
+    text-align: right;
+}
+
+.msgmore a:link,
+.msgmore a:visited {
+    color: #00a4e3;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* flash */
+.flashBar {
+    float: right;
+    width: 67px;
+}
+
+.flashBar a.close {
+    background-position: 14px 14px;
+}
+
+.flashBar a.sharetozone {
+    background-position: 14px -52px;
+}
+
+.flashBar a.sharetoweibo {
+    background-position: 14px -120px;
+}
+
+.flashBar a.close:hover {
+    background-position: -52px 14px;
+}
+
+.flashBar a.sharetozone:hover {
+    background-position: -52px -52px;
+}
+
+.flashBar a.sharetoweibo:hover {
+    background-position: -52px -120px;
+}
+
+
+
+.overlay {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    filter: Alpha(opacity=60);
+}
+.visible {
+    display: block;
+}
+
+.fig01,
+.fig04 {
+    width: 100%;
+}
+
+.my-pic {
+    background-size: cover;
+}
+
+.my-0,
+.my-1,
+.my-2,
+.my-3,
+.my-4,
+.my-5 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.fig01 {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    background-size: cover;
+}
+
+.verbar {
+    position: absolute;
+    width: 100%;
+    height: 26%;
+    top: 11%;
+    left: 0;
+
+}
+
+.fig01 h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.fig01 .content .home-indent {
+
+    height: 52%;
+
+}
+
+
+.fig01 a.downbtn {
+    display: block;
+    left: 0;
+    top: 39%;
+    width: 100%;
+    height: 9.4%;
+    text-align: center;
+    z-index: 50;
+    position: absolute;
+}
+
+.fig01 a.downbtn .btn-normal,
+.fig01 a.downbtn .btn-click {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+}
+
+.fig01 a.downbtn .btn-normal {
+    background: url(images/20190423215445_47bc6c.png) no-repeat center;
+    background-size: contain;
+}
+
+.fig01 a.downbtn .btn-click {
+    background: url(images/20190423215445_47bc6c.png) no-repeat center;
+    background-size: contain;
+    height: 96% !important;
+    display: none;
+}
+
+.fig01 a.downbtn:active .btn-normal {
+    display: none;
+}
+
+.fig01 a.downbtn:active .btn-click {
+    display: block;
+}
+
+
+/* <page-common> */
+.section {
+    min-height: 600px;
+    display: none;
+}
+
+.fig {
+    width: 100%;
+}
+
+.iefig .content {
+    display: none;
+}
+
+.content-img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
+
+/* */
+
+.page-end .fig {
+    width: 100%;
+
+    background-size: cover;
+    top: 0;
+    bottom: 120px;
+    position: absolute;
+
+}
+
+.page-end .wenzi {
+    padding-top: 6.2593%;
+    margin: 0 auto;
+    width: 531px;
+    height: 136px;
+    background:  no-repeat center bottom;
+    background-size: 100% auto;
+}
+
+.page-end .content .phone {
+    bottom: -120px;
+    height: 70%;
+
+}
+
+
+/* 动态效果 */
+@charset "UTF-8";
+@-webkit-keyframes pulse {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+@keyframes pulse {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        transform: scale3d(1.15, 1.15, 1.15);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+@keyframes zoomIn {
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes fadeInDown {
+    from {
+        opacity:0;
+        transform: translate3d(0, -10%, 0);
+    }
+
+    to {
+        opacity:1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity:0;
+        transform: translate3d(0, 10%, 0);
+    }
+
+    to {
+        opacity:1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes moveC {
+    0% {
+        -webkit-transform:translate(50%, 80%);
+        transform:translate(50%,80%);
+        opacity: 0;
+
+    }
+    100%{
+        -webkit-transform:translate(0,0%);
+        transform:translate(0%,0%);
+    }
+}
+.active .pulse1 {
+    -webkit-animation:pulse 1.5s 2s ;-moz-animation: pulse 1.5s 2s;animation: pulse 1.5s 2s;
+}
+.active .pulse2{
+    -webkit-animation: pulse 1.5s 3.5s;;-moz-animation: pulse 1.5s 3.5s;animation: pulse 1.5s 3.5s;
+}
+.active .pulse3{
+    -webkit-animation:pulse 1.5s 5s;-moz-animation:pulse 1.5s 5s;animation: pulse 1.5s 5s;
+}
+.active .pulse4{
+    -webkit-animation:pulse 1.5s 6.5s;-moz-animation:pulse 1.5s 6.5s;animation: pulse 1.5s 6.5s;
+}
+.active .pulse5{
+    -webkit-animation:pulse 1.5s 8s;-moz-animation:pulse 1.5s 8s;animation: pulse 1.5s 8s;
+}
+.active .pulse6{
+    -webkit-animation:pulse 1.5s 9.5s;-moz-animation: pulse 1.5s 9.5s; animation: pulse 1.5s 9.5s;
+}
+.active .qp{display: block;
+}
+.active .zoomIn1{
+    -webkit-animation: zoomIn 1.5s 2s;-moz-animation: zoomIn 1.5s 2s; animation: zoomIn 1.5s 2s;
+}
+.active .zoomIn2{
+    -webkit-animation: zoomIn 1.5s 3.5s;-moz-animation:zoomIn 1.5s 3.5s;animation: zoomIn 1.5s 3.5s;
+}
+.active .zoomIn3{
+    -webkit-animation:zoomIn 1.5s 5s;-moz-animation: zoomIn 1.5s 5s;  animation: zoomIn 1.5s 5s;
+}
+.active .zoomIn4{
+    -webkit-animation: zoomIn 1.5s 6.5s;-moz-animation: zoomIn 1.5s 6.5s;animation: zoomIn 1.5s 6.5s;
+}
+.active .zoomIn5{
+    -webkit-animation:zoomIn 1.5s 8s;-moz-animation: zoomIn 1.5s 8s; animation: zoomIn 1.5s 8s;
+}
+.active .zoomIn6{
+    -webkit-animation:zoomIn 1.5s 9.5s;-moz-animation: zoomIn 1.5s 9.5s;animation: zoomIn 1.5s 9.5s;
+}
+.active .fadeInDown{-webkit-animation: fadeInDown 1000ms 2s linear both ;-moz-animation: fadeInDown 1000ms 2s linear both;animation: fadeInDown 1000ms 2s linear both}
+.active .move1{
+    -webkit-animation: moveC 1000ms 1s linear both;
+    -moz-animation: moveC 1000ms 1s linear both;
+    animation: moveC 1000ms 1s linear both;}
+.active .wenzi,.active .downbtn,.active .wenzi1{
+    -webkit-animation: fadeInDown 1000ms 1s linear both ;-moz-animation: fadeInDown 1000ms 1s linear both;animation: fadeInDown 1000ms 1s linear both
+}
+.active .verbar{
+    -webkit-animation: fadeInDown 1000ms 0.5s linear both ;-moz-animation: fadeInDown 1000ms 0.5s linear both;animation: fadeInDown 1000ms 0.5s linear both
+}
+@-moz-keyframes anim1 {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+@-o-keyframes anim1 {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+@-webkit-keyframes anim1 {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+@keyframes anim1 {
+    0%{width: 0%;}
+    100%{width: 100%;}
+}
+.anim1{
+    -webkit-animation: anim1 2s linear;
+    -o-animation: anim1 2s linear;
+    -moz-animation:anim1 2s linear;
+    animation:anim1 2s linear;
+}
+
+
+
+/* 画面效果 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+
+    /*Avoid flicker on slides transitions for mobile phones #336 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#superContainer {
+    height: 100%;
+    position: relative;
+
+    /* Touch detection for Windows 8 */
+    -ms-touch-action: none;
+
+    /* IE 11 on Windows Phone 8.1*/
+    touch-action: none;
+}
+.fp-section {
+    position: relative;
+    -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box; /* <=28 */
+    box-sizing: border-box;
+}
+.fp-slide {
+    float: left;
+}
+.fp-slide, .fp-slidesContainer {
+    height: 100%;
+    display: block;
+}
+.fp-slides {
+    z-index:1;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */
+    transition: all 0.3s ease-out;
+}
+.fp-section.fp-table, .fp-slide.fp-table {
+    display: table;
+    table-layout:fixed;
+    width: 100%;
+}
+.fp-tableCell {
+    display: table-cell;
+    /*vertical-align: middle;*/
+    width: 100%;
+    height: 100%;
+}
+.fp-slidesContainer {
+    float: left;
+    position: relative;
+}
+.fp-controlArrow {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+}
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #fff;
+}
+.fp-scrollable {
+    overflow: scroll;
+
+}
+.fp-notransition {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+#fp-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+}
+#fp-nav.right {
+    right: 17px;
+}
+#fp-nav.left {
+    left: 17px;
+}
+.fp-slidesNav{
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    opacity: 1;
+}
+.fp-slidesNav.bottom {
+    bottom: 17px;
+}
+.fp-slidesNav.top {
+    top: 17px;
+}
+#fp-nav ul,
+.fp-slidesNav ul {
+    margin: 0;
+    padding: 0;
+}
+#fp-nav ul li,
+.fp-slidesNav ul li {
+    display: block;
+    width: 14px;
+    height: 13px;
+    margin: 7px;
+    position:relative;
+}
+.fp-slidesNav ul li {
+    display: inline-block;
+}
+#fp-nav ul li a,
+.fp-slidesNav ul li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+    background: #333;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    top: 2px;
+    left: 2px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+#fp-nav ul li .fp-tooltip {
+    position: absolute;
+    top: -2px;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    white-space: nowrap;
+    max-width: 220px;
+    overflow: hidden;
+    display: block;
+    opacity: 0;
+    width: 0;
+}
+#fp-nav ul li:hover .fp-tooltip {
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+    width: auto;
+    opacity: 1;
+}
+#fp-nav ul li .fp-tooltip.right {
+    right: 20px;
+}
+#fp-nav ul li .fp-tooltip.left {
+    left: 20px;
+}
