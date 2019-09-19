@@ -20,6 +20,7 @@ var QQphoneRouter = require('./routes/QQphone');
 =======
 var centerRouter = require('./routes/center');
 var downloadRouter = require('./routes/download');
+<<<<<<< HEAD
 var qqsafeRouter = require('./routes/qqsafe');
 
 var qqshezhiRouter = require('./routes/qqshezhi');
@@ -31,6 +32,9 @@ var qqgameRouter = require('./routes/qqgame');
 >>>>>>> 夏彬第二次上传
 >>>>>>> 672d7d6674d0c6368021432b83de30fb11dfd11c
 >>>>>>> 40bb6478123897576e08446a64fe2fdb0b9446c1
+=======
+var isuxRouter = require('./routes/isux');
+>>>>>>> 乐荣强第三个网页
 
 var app = express();
 
@@ -60,6 +64,7 @@ app.use('/QQphone',QQphoneRouter);
 =======
 app.use('/center',centerRouter);
 app.use('/download',downloadRouter);
+app.use('/isux',isuxRouter);
 
 app.use('/qqshezhi',qqshezhiRouter);
 

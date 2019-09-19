@@ -1,0 +1,105 @@
+.middle,.box1{
+    display: inline-flex;
+}
+.hand li{
+    list-style: none;
+    display: inline;
+    padding: 0px 33px;
+}
+.hand ul{
+    vertical-align: middle;
+    display: inline-block;
+}
+.logo_1{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 119px;
+}
+.logo_1:hover{
+    margin-bottom: 9px;
+}
+.logo_2:hover{
+    margin-bottom: 9px;
+}
+.logo_2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 132px;
+}
+.content{
+    margin: 81px auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:#757070;
+    font-size: 16px;
+    font-weight: 550;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.hand{
+    margin: 81px auto;
+}
+.box:hover{
+    transform: scale(1.2);
+}
+.tu_1{
+    overflow: hidden;
+    height=420px;
+    width: 52.5rem;
+}
+.tu_211{
+    overflow: hidden;
+    width: 422px;
+    height: 421px;
+    margin-left: 5px;
+}
+.tu_2{
+    overflow: hidden;
+    width: 423px;
+    height: 840px;
+}
+.tu_3{
+    overflow: hidden;
+    width: 423px;
+    height: 423px;
+}
+.tu_4{
+    overflow: hidden;
+    width: 840px;
+    height: 421px;
+}
+.box1  li{
+    text-align: none;
+    display: inline-block;
+}
+.xing ul{
+    margin: 0;
+    padding-inline-start: 0px;
+}
+.xing{
+    width: 851px;
+}
+.tuceng3,.tuceng4{
+    display: inline-flex;
+}
+.tuceng4{
+    margin: 116px;
+}
+.last li{
+    list-style: none;
+    display: inline-block;
+    padding: 16px 44px;
+}
+.last ul{
+    display: inline-block;
+}
+.hand_text1{
+    padding-left: 278px;
+    font-size: 12px;
+    color: #777;
+    font-weight: 546;
+}
