@@ -15,26 +15,16 @@ var tengxunRouter = require('./routes/tengxun');
 var y_diamondRouter = require('./routes/y_diamond');
 var GFQQzoneRouter = require('./routes/GFQQzone');
 var Tencent_classRouter = require('./routes/Tencent_class');
-<<<<<<< HEAD
 var QQphoneRouter = require('./routes/QQphone');
-=======
 var centerRouter = require('./routes/center');
 var downloadRouter = require('./routes/download');
-<<<<<<< HEAD
 var qqsafeRouter = require('./routes/qqsafe');
 
 var qqshezhiRouter = require('./routes/qqshezhi');
 
 var qqgameRouter = require('./routes/qqgame');
-<<<<<<< HEAD
-
-=======
->>>>>>> 夏彬第二次上传
->>>>>>> 672d7d6674d0c6368021432b83de30fb11dfd11c
->>>>>>> 40bb6478123897576e08446a64fe2fdb0b9446c1
-=======
 var isuxRouter = require('./routes/isux');
->>>>>>> 乐荣强第三个网页
+var serviceRouter = require('./routes/service');
 
 var app = express();
 
@@ -59,9 +49,7 @@ app.use('/tengxun',tengxunRouter);
 app.use('/y_diamond',y_diamondRouter);
 app.use('/GFQQzone',GFQQzoneRouter);
 app.use('/Tencent_class',Tencent_classRouter);
-<<<<<<< HEAD
 app.use('/QQphone',QQphoneRouter);
-=======
 app.use('/center',centerRouter);
 app.use('/download',downloadRouter);
 app.use('/isux',isuxRouter);
@@ -69,13 +57,9 @@ app.use('/isux',isuxRouter);
 app.use('/qqshezhi',qqshezhiRouter);
 
 app.use('/qqgame',qqgameRouter);
-<<<<<<< HEAD
 app.use('/qqsafe',qqsafeRouter);
+app.use('/service',serviceRouter);
 
-=======
->>>>>>> 夏彬第二次上传
->>>>>>> 672d7d6674d0c6368021432b83de30fb11dfd11c
->>>>>>> 40bb6478123897576e08446a64fe2fdb0b9446c1
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

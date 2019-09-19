@@ -1,0 +1,196 @@
+.header {
+	width: 100%;
+	height: 75px;
+	display: block;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	left: 200px;
+	top: 25%;
+	margin-top: -20px;
+	width: 230px;
+	height: 50px;
+}
+
+.logo_img {
+	display: block;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	background: url(../img/logo_2x.png);
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: contain;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+}
+
+.photo {
+	margin-left: 1300px;
+}
+
+.loginBtn {
+	background-color: #04bdff;
+	border: none;
+	color: #FFFFFF;
+}
+
+.indexBanner {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: url(../img/indexBanner.png);
+	background-position-x: 50%;
+	background-position-y: center;
+	background-size: cover;
+	border: aquamarine;
+}
+
+.banner {
+	margin-left: 460px;
+	padding-top: 0px;
+}
+
+.fadeInB {
+	font-size: 40px;
+	font-size: 60px;
+	color: #00ace9;
+	line-height: 60px;
+	margin-bottom: 40px;
+}
+
+.searchBox {
+	display: block;
+	width: 480px;
+	height: 70px;
+	position: relative;
+	background-color: #fff;
+}
+
+.searchBar {
+	display: block;
+	width: 480px;
+	height: 40px;
+	margin-left: 500px;
+}
+
+.tx_search {
+	width: 477px;
+	height: 40px;
+	display: inline-block;
+}
+
+.button_1 {
+	width: 80px;
+	height: 45px;
+	background-color: #00ACE9;
+	border: none;
+	color: #FFFFFF;
+	font-size: 17px;
+	display: inline-block;
+	position: relative;
+	margin-left: 401px;
+	top: -45px;
+
+}
+
+.container {
+	width: 100%;
+	height: 400px;
+	background-color: #00ACE9;
+}
+
+.pic_ul {
+	list-style: none;
+	width: 1000px;
+	height: 400px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.pic_ul li {
+	display: inline-block;
+	height: 320px;
+	width: 280px;
+	margin-left: 40px;
+	padding-top: 20px;
+}
+
+.pic_ul img {
+	height: 320px;
+	width: 280px;
+}
+
+.li_1_1:hover {
+	position: relative;
+	top: -6px;
+}
+
+.li_2_2:hover {
+	position: relative;
+	top: -6px;
+}
+
+.li_3_3:hover {
+	position: relative;
+	top: -6px;
+}
+
+.game {
+	color: #666;
+}
+
+.game h3 {
+	font-size: 24px;
+	color: #00ace9;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: rgb(0, 172, 233);
+	padding-left: 15px;
+	line-height: 24px;
+	margin-bottom: 18px;
+	margin-left: 260px;
+	margin-top: 50px;
+}
+
+p {
+	margin-left: 280px;
+	margin-top: 30px;
+}
+
+.game a img {
+	width: 93px;
+	height: 95px;
+	border: 1px solid #e3e3e4;
+	text-decoration: none;
+	color: #666;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 200px;
+}
+
+.game dd {
+	display: inline-block;
+	margin-left: -184px;
+	width: 310px;
+}
+
+.game span {
+	margin-top: 20px;
+	padding-left: 210px;
+}
+
+dd a img:hover {
+	position: relative;
+	top: -6px;
+}
+.img1:hover{
+	position: relative;
+	top: -20px;
+}
