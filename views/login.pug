@@ -1,0 +1,84 @@
+doctype html
+head
+    meta(charset='utf-8')
+    title QQ&#x7A7A;&#x95F4;-&#x5206;&#x4EAB;&#x751F;&#x6D3B;&#xFF0C;&#x7559;&#x4F4F;&#x611F;&#x52A8;
+    link(href='stylesheets/login.css', type='text/css', rel='stylesheet')
+.backgound_class
+.logo_and_form
+    .logo_div
+        img(src='images/qzone-logo白.png')
+    .login_class
+        .title
+            span.title_1 &#x8D26;&#x53F7;&#x5BC6;&#x7801;&#x767B;&#x5F55;
+            br
+            span.title_2
+                | &#x63A8;&#x8350;&#x4F7F;&#x7528;
+                a.safe_login(href='#') &#x5FEB;&#x901F;&#x5B89;&#x5168;&#x767B;&#x5F55;
+                | &#xFF0C;&#x9632;&#x6B62;&#x76D7;&#x53F7;&#x3002;
+        span(style='color:red;position: absolute;left: 78px;top: 88px;font-weight:900') #{err}
+            //img(src='images/mark.png')
+        span(style='color:red;position: absolute;left: 78px;top: 88px;font-weight:900') #{errr}
+            //img(src='images/mark.png')
+        .form_box
+            form(action='/login', method='post')
+                input#form_id(type='text', placeholder='支持QQ号/邮箱/手机号登陆', required='', name='user')
+                br
+                input#form_pass(type='password', placeholder='密码', name='pass')
+                br
+                input.submit(type='submit', value='登录' style='cursor:pointer')
+                br
+                .form_text
+                    a(href='#') &#x5FD8;&#x4E86;&#x5BC6;&#x7801;&#xFF1F;
+                    | |
+                    a(href='register') &#x6CE8;&#x518C;&#x65B0;&#x8D26;&#x53F7;
+                    | |
+                    a(href='#') &#x610F;&#x89C1;&#x53CD;&#x9988;
+.bottom_menu
+    .under_logo
+        ul.ul_logo
+            li
+                a(href='ltj')
+                    .iphone_icon
+                    span iphone
+            li
+                a(href='ltj')
+                    .ipad_icon
+                    span ipad
+            li
+                a(href='ltj')
+                    .Android_icon
+                    span Android
+            li
+                a(href='ltj')
+                    .windows_icon
+                    span windows Phone
+            li
+                a(href='ltj')
+                    .others_icon
+                    span &#x5176;&#x4ED6;&#x624B;&#x673A;
+    .under_text
+        a(href='#') &#x53CD;&#x9988;&#x5EFA;&#x8BAE;
+        | |
+        a(href='GFQQzone') &#x5B98;&#x65B9;&#x7A7A;&#x95F4;
+        | |
+        a(href='y_diamond') &#x7A7A;&#x95F4;&#x6D3B;&#x52A8;
+        | |
+        a(href='#') &#x7A7A;&#x95F4;&#x5E94;&#x7528;
+        | |
+        a(href='delete') ABCmouse&#x817E;&#x8BAF;&#x7248;
+        | |
+        a(href='#') &#x817E;&#x8BAF;&#x539F;&#x521B;&#x9986;
+        | |
+        a(href='#') QQ&#x4E92;&#x8054;
+        | |
+        a(href='#') QQ&#x767B;&#x5F55;
+        | |
+        a(href='#') &#x793E;&#x4EA4;&#x7EC4;&#x4EF6;
+        | |
+        a(href='tengxun') &#x5E94;&#x7528;&#x4FB5;&#x6743;&#x6295;&#x8BC9;
+        | |
+        a(href='#') Compiaint Guidelines
+    .under_text1
+        | Copyright &copy; 2005 - 2019 Tencent.
+        a(href='#') All Rights Reserved.
+    .under_text2 &#x817E;&#x8BAF;&#x516C;&#x53F8; &#x7248;&#x6743;&#x6240;&#x6709; &#x7CA4;&#x6587;&#x5316;[2017]6138-1456&#x53F7;

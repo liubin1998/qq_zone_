@@ -25,6 +25,10 @@ var qqshezhiRouter = require('./routes/qqshezhi');
 var qqgameRouter = require('./routes/qqgame');
 var isuxRouter = require('./routes/isux');
 var serviceRouter = require('./routes/service');
+var loginRouter = require('./routes/login');
+var homepageRouter = require('./routes/homepage');
+var journalRouter = require('./routes/journal');
+var albumRouter = require('./routes/album');
 
 var app = express();
 
@@ -53,12 +57,14 @@ app.use('/QQphone',QQphoneRouter);
 app.use('/center',centerRouter);
 app.use('/download',downloadRouter);
 app.use('/isux',isuxRouter);
-
+app.use('/journal',journalRouter);
 app.use('/qqshezhi',qqshezhiRouter);
-
+app.use('/album',albumRouter);
 app.use('/qqgame',qqgameRouter);
 app.use('/qqsafe',qqsafeRouter);
 app.use('/service',serviceRouter);
+app.use('/login',loginRouter);
+app.use('/homepage',homepageRouter);
 
 
 // catch 404 and forward to error handler

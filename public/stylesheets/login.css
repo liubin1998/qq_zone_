@@ -1,0 +1,222 @@
+.backgound_class{
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;height: 100%;
+    min-width: 500px;
+    z-index: -10;
+    zoom: 1;
+    background: url(/images/backpic.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center 0;
+
+
+}
+.logo_and_form{
+    /* background-color: lightskyblue; */
+    position: relative;
+    width: 880px;
+    height: 432px;
+    top: -20px;
+    left: 0px;
+    margin: auto;
+
+}
+.logo_div{
+    /* 	display: block; */
+    /* 	background-color:gold; */
+    position:relative;
+    left: 0px;
+    top: 120px;
+    width: 300px;
+    height: 120px;
+}
+.login_class{
+    background-color:rgba(255,255,255,0.3);
+    height:312px;
+    width: 417px;
+    position: relative;
+    display: block;
+    top: 0px;
+    left: 460px;
+    border-radius: 12px;
+}
+.title_2 a{
+    text-decoration: none;
+}
+.title_2 a:hover{
+    text-decoration: underline;
+}
+.title{
+    height:100px;
+    width: 417px;
+    /* background-color: lightpink; */
+    text-align: center;
+    padding-top: 10px;
+    line-height: 35px;
+}
+.title_1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.title_2{
+    color:darkslategray;
+
+}
+.form_box{
+    text-align: center;
+    padding-top: 0px;
+    line-height: 55px;
+}
+#form_id{
+    width: 258px;
+    height: 35px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0.5em;
+    border:lightgray solid 1px;
+}
+#form_pass{
+    width: 258px;
+    height: 35px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0.5em;
+    border:lightgray solid 1px;
+}
+.submit{
+    width: 258px;
+    height: 35px;
+    background-color:yellowgreen;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 0.5em;
+}
+.form_text{
+    /* background-color: #9ACD32; */
+    text-align:right;
+    font-size: 14px;
+
+
+}
+.form_text a{
+    text-decoration: none;
+    color:#666;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.form_text a:hover{
+    text-decoration: underline;
+}
+.bottom_menu{
+    /* 	background-color: lightskyblue; */
+    position: relative;
+    width: 980px;
+    height: 200px;
+    top: 80px;
+    left: 0px;
+    margin: auto;
+}
+.under_logo{
+    /* 	background-color: lightblue; */
+    width: 580px;
+    height: 100px;
+    margin: auto;
+}
+.ul_logo{
+    list-style-type:none;
+
+}
+.ul_logo li{
+    width: 90px;
+    height:65px;
+    /* 	background-color: black; */
+    display:inline;
+    float: left;
+    margin-left: 0px;
+    text-align: center;
+    color: white;
+}
+.iphone_icon{
+    width: 28px;
+    height: 28px;
+    background-image:url(/images/littlepic.png);
+    background-position-y:-204px;
+    background-position-x: -60px;
+    margin: auto;
+}
+.ipad_icon{
+    width: 28px;
+    height: 28px;
+    background-image:url(/images/littlepic.png);
+    background-position-y:-233px;
+    background-position-x: -60px;
+    margin: auto;
+}
+.Android_icon{
+    width: 28px;
+    height: 28px;
+    background-image:url(/images/littlepic.png);
+    background-position-y:-173px;
+    background-position-x: -89px;
+    margin: auto;
+}
+.windows_icon{
+    width: 28px;
+    height: 28px;
+    background-image:url(/images/littlepic.png);
+    background-position-y:-233px;
+    background-position-x: -90px;
+    margin: auto;
+}
+.others_icon{
+    width: 28px;
+    height: 28px;
+    background-image:url(/images/littlepic.png);
+    background-position-y:-203px;
+    background-position-x: -90px;
+    margin: auto;
+}
+.ul_logo li a{
+    color: white;
+    text-decoration: none;
+}
+.ul_logo li:hover{
+    margin-top: -8px;
+}
+.under_text{
+    font-size: 15px;
+    color: white;
+    padding-left: 5px;
+    /* background-color: #9ACD32; */
+    text-align: center;
+}
+.under_text a{
+    color: white;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.under_text a:hover{
+    text-decoration:underline;
+}
+.under_text1{
+    font-size: 15px;
+    color: white;
+    padding-left: 5px;
+    /* 	background-color: #9ACD32; */
+    text-align: center;
+}
+.under_text1 a{
+    color: white;
+    text-decoration: none;
+}
+.under_text1 a:hover{
+    text-decoration:underline;
+}
+.under_text2{
+    font-size: 15px;
+    color: white;
+    padding-left: 5px;
+    /* background-color: #9ACD32; */
+    text-align: center;
+}
